@@ -1,0 +1,117 @@
+
+
+
+@media (max-width: 576px){
+
+	.header {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	
+	}
+
+	.logo-img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.logo-text {
+		text-align: center;
+	}
+	
+	header .login {
+		text-align: center;
+		margin-top: 0;
+	}
+	
+	.reg-in {
+		float: none;
+	}
+	
+	header nav .menu {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+@media (max-width: 764px){
+	.reg-in {
+		float: none;
+	}
+
+	main .parts {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+	main .parts form {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		
+	}
+
+	main .parts .search {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px 40px; 
+	}
+
+	main .services {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	main .services div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.date-button {
+	margin-top: 0;
+	}
+	
+	main .about {
+ 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+ 	}
+
+ 	main .about .about-us {
+ 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+ 	}
+
+ 	main .about .about-us img {
+ 	width: auto;
+ 	height:auto; 
+
+ 	}
+
+ 	.footer {
+ 	display: flex;
+	flex-direction:column-reverse;
+	justify-content: center;
+	align-items: center;
+ 	}
+	
+
+}
